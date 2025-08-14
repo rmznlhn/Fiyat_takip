@@ -12,8 +12,8 @@ if url:
         ydl_opts = {
             'outtmpl': 'downloads/%(title)s.%(ext)s',
             'noplaylist': True,
-            'format': 'best[ext=mp4]',  # En iyi MP4 formatını seç
-            'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',  # User-Agent ekle
+            'format': 'best[ext=mp4]',  # En iyi MP4 formatı
+            'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',  # User-Agent
         }
 
         if os.path.exists('cookies.txt'):
