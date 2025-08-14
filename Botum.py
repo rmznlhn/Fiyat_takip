@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler
 import asyncio
 
 # Bot tokenını buraya yaz
-TOKEN = "BOT_TOKEN_BURAYA"
+TOKEN = "8350284060:AAELTkDNIEt_oWP-ZXYDRlo_eBSofz2cziA"
 
 # Bot komutları
 async def start(update, context):
