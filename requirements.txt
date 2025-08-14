@@ -1,4 +1,4 @@
 streamlit
 PyMuPDF
 Pytube
-yt-dlp
+yt-dlp>=2024.8.6
