@@ -1,4 +1,5 @@
 streamlit
 python-telegram-bot==20.3
+nest_asyncio
 PyMuPDF
 yt-dlp>=2024.8.6
